@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - FashionCart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="logo2.png" width="155px" alt="FashionCart Logo"></a>
+            </div>
+            <nav>
+                <ul id="menuitems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product1.html">Product</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><div class="cart"><i class="fa-solid fa-cart-shopping"></i></div></a>
+            <div class="menu" onclick="menutoggle()"><i class="fa fa-bars" aria-hidden="true"></i></div>
+        </div>
+    </div>
+
+    <!-- Single Product Details -->
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col2">
+                <img src="col4.1.avif" alt="" id="productimg">
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="s1.avif" alt="" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="s3.avif" alt="" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="s5.avif" alt="" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="s6.avif" alt="" class="small-img">
+                    </div>
+                </div>
+            </div>
+            <div class="col2">
+                <p>Home / T-Shirt</p>
+                <h1>T-Shirt By Puma</h1>
+                <h4>$75.00</h4>
+                <select>
+                    <option>Select Size</option>
+                    <option>XXL</option>
+                    <option>XL</option>
+                    <option>L</option>
+                    <option>M</option>
+                    <option>S</option>
+                </select>
+                <input type="number" value="1">
+                <a href="#" class="btn">Add To Cart</a>
+                <h3>Product Details <i class="fa fa-indent" aria-hidden="true"></i></h3>
+                <br>
+                <p>Give your summer wardrobe a style upgrade with the PUMA Men's Active Clothes. Team it with a pair of shorts for your styling and workout or a denim evening out with the guys.</p>
+            </div>
+        </div>
+    </div>
+    <!-----title------>
+    <div class="small-container">
+        <div class="row row-2">
+            <h2> Related Products</h2>
+            <p>View more</p>
+            
+        </div>
+    </div>
+
+    <!------products-->
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+                <option>Default Sorting</option>
+                <option>Sort by Price</option>
+                <option>Sort by Popularity</option>
+                <option>Sort by Rating</option>
+                <option>Sort by Sales</option>
+            </select>
+        </div>
+
+        <div class="row">
+            <div class="col4">
+                <a href="Product Detail.html"><img src="col4.1.avif" alt="Puma TShirt"></a>
+                <h4>Puma TShirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col4">
+                <a href="product detail 2.html"><img src="col4.5.avif" alt="Nike TShirt"></a>
+                <h4>Nike TShirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$80.00</p>
+            </div>
+            <div class="col4">
+                <img src="col4.3.avif" alt="Hrx TShirt">
+                <h4>Hrx TShirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$30.00</p>
+            </div>
+            <div class="col4">
+                <a href="product detail 3.html"><img src="col4.4.avif" alt="Sports Jacket"></a>
+                <h4>Sports Jacket</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <p>$95.00</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and iOS mobile phones.</p>
+                    <div class="app-logo">
+                        <img src="app1.png">
+                        <img src="app2.webp">
+                    </div>
+                </div>
+                <div class="footer-col2">
+                    <img src="logo2.png">
+                    <p>Our purpose is to sustainably make the pleasure and benefits of sports accessible to the many.</p>
+                </div>
+                <div class="footer-col3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        var menuitems = document.getElementById("menuitems");
+        menuitems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (menuitems.style.maxHeight === "0px") {
+                menuitems.style.maxHeight = "200px";
+            } else {
+                menuitems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+    <!-- Product Gallery -->
+    <script>
+        var productimg = document.getElementById("productimg");
+        var smallimg = document.getElementsByClassName("small-img");
+
+        for (let i = 0; i < smallimg.length; i++) {
+            smallimg[i].onclick = function () {
+                productimg.src = smallimg[i].src;
+            }
+        }
+    </script>
+</body>
+</html>

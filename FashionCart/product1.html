@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product-FashionCart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="logo2.png" width="155px" alt="FashionCart Logo"></a>
+                </div>
+                <nav>
+                    <ul id = "menuitems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product1.html">Product</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><div class="cart"><i class="fa-solid fa-cart-shopping"></i></div></a>
+                <div class="menu" onclick="menutoggle()"><i class="fa fa-bars" aria-hidden="true"></i></div>
+            </div>
+            
+        </div>
+   
+    <div class="small-container">
+
+
+
+
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+                <option>Default Sorting</option>
+                <option>Short by Price</option>
+                <option>Short by popular</option>
+                <option>Short by Rating</option>
+                <option>Short by Sell</option>
+            </select>
+        </div>
+        
+        <div class="row">
+            <div class="col4">
+                <a href="Product Detail.html"><img src="col4.1.avif" alt="Puma TShirt"></a>
+                <a href="Product Detail.html"><h4>Puma TShirt</h4></a>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col4">
+                <a href="product detail 2.html"><img src="col4.5.avif" alt="Nike TShirt"></a>
+                <h4>Nike TShirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    
+
+                </div>
+                <p>$80.00</p>
+            </div>
+            <div class="col4">
+                <img src="col4.3.avif" alt="Hrx TShirt">
+                <h4>Hrx TShirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>$30.00</p>
+            </div>
+            <div class="col4">
+                <a href="product detail 3.html"><img src="col4.4.avif" alt="Sports Jacket"></a>
+                <h4>Sports Jacket</h4><div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half" aria-hidden="true"></i>    
+                </div>
+                <p>$95.00</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col4">
+                <a href="product detail 4.html"><img src="col4.7.avif" ></a>
+                <h4>Nike Collection</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>$300.00</p>
+            </div>
+            <div class="col4">
+                <a href="product detail 5.html"><img src="col4.8.avif" ></a>
+                <h4>Asics Sports</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    
+
+                </div>
+                <p>$100.00</p>
+            </div>
+            <div class="col4">
+                <a href="product detail 6.html"><img src="col4.9.avif" alt="Hrx TShirt"></a>
+                <h4>Nike Sports</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>$350.00</p>
+            </div>
+            <div class="col4">
+                <a href="product detail 7.html"><img src="col4.10.avif" alt="Sports Jacket"></a>
+                <h4>Adidas Sports</h4><div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half" aria-hidden="true"></i>    
+                </div>
+                <p>$450.00</p>
+            </div>
+            <div class="col4">
+                <img src="p1.avif" >
+                <h4>RedTep Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col4">
+                <img src="p2.avif" alt="Nike TShirt">
+                <h4>Oversize TShirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    
+
+                </div>
+                <p>$80.00</p>
+            </div>
+            <div class="col4">
+                <img src="p3.avif" alt="Hrx TShirt">
+                <h4>Black Printed Shirts</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>$30.00</p>
+            </div>
+            <div class="col4">
+                <img src="p4.avif" alt="Sports Jacket">
+                <h4>POLO TShirt</h4><div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half" aria-hidden="true"></i>    
+                </div>
+                <p>$95.00</p>
+            </div>
+            <div class="col4">
+                <img src="col4.16.avif" >
+                <h4>Puma Snekars</h4><div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half" aria-hidden="true"></i>    
+                </div>
+                <p>$450.00</p>
+            </div>
+            <div class="col4">
+                <img src="col4.17.avif" >
+                <h4>RedTep Shoes</h4><div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half" aria-hidden="true"></i>    
+                </div>
+                <p>$450.00</p>
+            </div>
+            <div class="col4">
+                <img src="col4.18.avif" >
+                <h4>Puma Sports</h4><div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half" aria-hidden="true"></i>    
+                </div>
+                <p>$450.00</p>
+            </div>
+            <div class="col4">
+                <img src="col4.19.avif" >
+                <h4>Roadsters</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$450.00</p>
+            </div>
+        </div>
+        <div class="page-btn">
+            <span> 1</span>
+            <span> 2</span>
+            <span> 3</span>
+            <span> 4</span>
+            <span> &#8594;</span>
+            
+        </div>
+    </div>
+        
+
+        
+    
+    
+    
+    <!---footer------>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and IOS Mobile Phone.</p>
+                    <div class="app-logo">
+                        <img src="app1.png">
+                        <img src="app2.webp">
+                    </div>
+                </div>
+                <div class="footer-col2">
+                    <img src="logo2.png" >
+                    <p>Our Purpose Is To Sustainably Make the Plesure and Benifits of Sports Accessible To the Many.</p>
+                </div>
+                <div class="footer-col3">
+                    <h3>UseFul Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+    <!-- Your product page content goes here -->
+
+    <script>
+        var menuitems = document.getElementById("menuitems");
+        menuitems.style.maxHeight = "0px";
+        function menutoggle(){
+            if( menuitems.style.maxHeight == "0px")
+               {
+                  menuitems.style.maxHeight = "200px"
+               }
+           else
+                {
+                     menuitems.style.maxHeight = "0px"
+                }
+        }
+    </script>
+
+
+
+
+
+</body>
+</html>
